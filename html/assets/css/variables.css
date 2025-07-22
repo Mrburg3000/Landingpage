@@ -1,0 +1,7 @@
+:root {
+    --gap: 3rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
