@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.5;  
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem; 
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  color: inherit;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h3 {
+    font-size: 3rem; 
+    color: aliceblue;
+}
+
+h4 {
+    font-size: 4.5rem; 
+    color: aliceblue;
+}
+
+h5 {
+    font-size: 4rem; 
+    color: aliceblue;
+}
+
+h6 {
+    font-size: 3.5rem; 
+    color: aliceblue;
+}
+
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption {
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(58, 0, 58);
+}
+table td, table th {
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+tfoot, table th {
+    background-color: #f2f2f2;
+}
